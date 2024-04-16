@@ -33,3 +33,5 @@ opt.clipboard:append("unnamedplus") -- use system clipboard as default register
 -- split behavior
 opt.splitright = true
 opt.splitbelow = true
+
+opt.swapfile = false
