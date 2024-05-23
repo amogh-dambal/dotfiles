@@ -33,6 +33,11 @@ return {
 
         mason_tool_installer.setup({
             ensure_installed = {
+                "gofumpt",
+                "goimports",
+                "gomodifytags",
+                "impl",
+                "delve",
                 "prettier",
                 "stylua",
                 "isort",

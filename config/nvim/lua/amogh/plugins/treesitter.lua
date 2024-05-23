@@ -10,7 +10,7 @@ return {
     config = function()
         --import
         local cfgs = require("nvim-treesitter.configs")
-    
+
         cfgs.setup({
             highlight = { enable = true },
             indent = { enable = true },
@@ -41,6 +41,7 @@ return {
                 "markdown_inline",
                 "python",
                 "regex",
+                "ron",
                 "rust",
                 "smithy",
                 "sql",
